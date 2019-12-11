@@ -1,10 +1,37 @@
-.darkBG{
-    background: lightpink;
-}
-.darkerBG{
-    background: pink;
-}
 #margin{
     margin-right: 20px;
     margin-left: 20px;
 }
+#margin2{
+    margin-right: 37px;
+    margin-left: 37px;
+}
+#margin3{
+    margin-right: 500px;
+
+}
+.bordermargin{
+    margin: 50px;
+}
+.background{
+    background: url("../img/travelbanner.png") ;
+}
+.text{
+    font-family: Georgia;
+    font-size: 20px;
+}
+/* Sticky Footer Classes */
+
+html,
+body {
+    height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
