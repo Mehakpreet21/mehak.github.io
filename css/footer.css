@@ -183,8 +183,6 @@ footer{
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color:  #33383b;
-    border-radius: 2px;
 
     font-size: 20px;
     color: #ffffff;
@@ -233,10 +231,19 @@ footer{
     margin: 50px;
 }
 .background{
-    background: #ffd9f1;
+    background: #ffd2e5;
 }
 .text{
     font-family: Georgia;
     font-size: 20px;
     color: black;
+}
+.image-border{
+    border: 5px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+
+}
+travelbg{
+    background: url("../img/header for smth.png");
 }
